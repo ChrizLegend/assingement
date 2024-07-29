@@ -1,0 +1,133 @@
+@media (max-width:450px) {
+    
+    header{
+        height: 40px;
+        background-color: black;
+        padding: 7px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    header nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    header nav a{
+        color: white;
+        transition: 0.6s;
+        font-size: 10px;
+    }
+    
+    nav a:hover{
+        transform: scale(1.1);
+        filter: grayscale(1);
+    }
+    
+    main{
+        width: fit-content;
+    }
+    
+    main .banner{
+        height: 600px;
+    }
+    
+    main .focus{
+        height: 500px;
+    
+    }
+    
+ 
+    
+  
+ 
+    
+    main .about-planet{
+        width: 100%;
+        height: 350px;
+        background-color: white;
+    }
+    
+
+    
+    main .about-globe{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        gap: 5px;
+    }
+    
+    .about-globe img{
+        width: 15%;
+        height: 150px;
+    
+    }
+    
+    .about-globe div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    main .the-astronauts{
+        width: 100%;
+        height: 350px;
+        background-color: white;
+    }
+    
+    .the-astronauts p{
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+    
+    main .deskladies{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(240, 136, 67);
+    }
+    
+    .deskladies div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .deskladies img{
+        width: 30%;
+        height: 140px;
+        border-radius: 50%;
+        margin-top: 80px;
+        outline: 3px solid white;
+    }
+    
+    footer {
+        width:100%;
+        height: 30px;
+        background-color: white;
+    }
+    
+    footer p{
+        font-size: 11px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    
+}

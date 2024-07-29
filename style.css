@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    gap: 50px;
+}
+
+header nav a{
+    color: white;
+    transition: 0.6s;
+    font-size: 13px;
+}
+
+nav a:hover{
+    transform: scale(1.1);
+    filter: grayscale(1);
+}
+
+main{
+    width: 100%;
+}
+
+main .banner{
+    background-image: url(./galaxy.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: 100%;
+}
+
+main .focus{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.focus h1{ 
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.focus a{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+ .focus a:hover {
+    background-color: white;
+    color: black;
+}
+
+main .about-planet{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.about-planet p{
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+main .about-globe{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(172, 166, 166);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-globe img{
+    width: 15%;
+    height: 200px;
+
+}
+
+.about-globe a{
+    padding: 4px 12px;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+}
+
+.about-globe a:hover{
+    background-color: white;
+}
+.about-globe div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+main .the-astronauts{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.the-astronauts p{
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+main .deskladies{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(240, 136, 67);
+}
+
+.deskladies div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deskladies img{
+    width: 10%;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    outline: 3px solid white;
+}
+
+footer {
+    width:100%;
+    height: 30px;
+    background-color: white;
+}
+
+footer p{
+    font-size: 14px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
